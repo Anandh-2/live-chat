@@ -114,7 +114,6 @@
     flex: 0.7;
     display: flex;
     flex-direction: column;
-    overflow: scroll;
 }
 
 .chatArea-header
@@ -143,6 +142,11 @@
     flex-direction: column;
     background-color: white;
     flex: 1;
+    padding: 10px 10px;
+    margin: 10px;
+    border-radius: 20px;
+    overflow: scroll;
+    scrollbar-width: none;
 }
 
 .text-input-area
